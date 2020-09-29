@@ -13,10 +13,11 @@ public class AlteraSaldoContaFilipe {
 		EntityManager em = emf.createEntityManager();
 		
 		Conta contaFilipe = em.find(Conta.class, 1L);
+		System.out.println("Conta do : "+ contaFilipe.getTitular());
 		
 		em.getTransaction().begin();
 		
-		contaFilipe.setSaldo(200.0);
+		contaFilipe.setSaldo(300.0);
 		em.getTransaction().commit();
 
 	}
