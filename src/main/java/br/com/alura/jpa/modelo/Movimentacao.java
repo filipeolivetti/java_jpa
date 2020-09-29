@@ -1,9 +1,6 @@
 package br.com.alura.jpa.modelo;
 
-<<<<<<< HEAD
-public class Movimentacao {
 
-=======
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
@@ -70,5 +67,5 @@ public class Movimentacao {
 	}
 	
 	
->>>>>>> b5d228dbe57481b950eea696a4627e024f21048b
+
 }
