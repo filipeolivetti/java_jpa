@@ -14,10 +14,10 @@ public class CriaContaComSaldo {
 		
 		Conta conta = new Conta();
 		
-		conta.setTitular("karina");
-		conta.setAgencia(8021);
-		conta.setNumero(1235);
-		conta.setSaldo(500.0);
+		conta.setTitular("Roberto");
+		conta.setAgencia(82021);
+		conta.setNumero(11235);
+		conta.setSaldo(560.0);
 		
 		em.getTransaction().begin();
 		em.persist(conta);
